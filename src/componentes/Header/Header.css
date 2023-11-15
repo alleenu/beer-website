@@ -1,0 +1,91 @@
+/* pantalla phone */
+
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.header-contenido{
+    padding: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-h1{
+    background-color: yellowgreen; 
+}
+
+.header-btn{
+    margin-top: 1rem;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+ion-icon{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* Barra de navegacion */
+.header-nav{
+    visibility: hidden;
+    opacity: 0;
+    height: 0; /* Eliminar la altura */
+
+    /* animación para mostrar el menú */
+    transition: visibility .3s ease-in-out, opacity 0.5s linear, height 0.5s linear;
+}
+.header-nav:hover{
+    color: turquoise;
+}
+.nav_enlace{
+    font-family: 'Wix Madefor Text', sans-serif;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.nav_enlace:active{
+    color: none;
+}
+
+/* Mostrar el menú responsive */
+.mostrar{
+    visibility: visible;
+    opacity: 1;
+    height: 10vh;/*Toma el espacio que requiere*/
+}
+
+/* Pantallas a partir de tablet */
+
+@media screen and (min-width: 768px) {
+    .header-contenido{
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .header-nav{
+        background-color: lightcoral; /* para ubicar*/
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 0vh;
+        /*Mostrar la nav*/
+        opacity: 1; 
+        visibility: visible;  
+    }
+    a{
+        margin: 0;
+    }
+    .header-btn{
+        display: none; /*Ocultar el el boton del menú responsive*/
+    }
+}
