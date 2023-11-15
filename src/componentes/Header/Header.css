@@ -12,8 +12,14 @@
     flex-direction: column;
     align-items: center;
 }
-
+.header-enlace{
+    text-decoration: none;
+}
+.header-enlace:active{
+    color: none;
+} 
 .header-h1{
+    color: white;
     background-color: yellowgreen; 
 }
 
