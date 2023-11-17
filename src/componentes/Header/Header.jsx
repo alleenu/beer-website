@@ -24,7 +24,7 @@ function Header(){
         <button className="header-btn" onClick={alternarMenu}><ion-icon name="menu-outline"></ion-icon></button>
 
         <nav className={`header-nav ${menu ? 'mostrar' : ''}`}>
-          <Link to="/" className="nav_enlace">Inicio</Link>
+          <Link to="/inicio" className="nav_enlace">Inicio</Link>
           <Link to="/productos" className="nav_enlace">Productos</Link>
           <Link to="/testimonios" className="nav_enlace">Testimonios</Link>
         </nav>
