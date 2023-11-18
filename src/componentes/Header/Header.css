@@ -5,6 +5,8 @@
     color: white;
     text-align: center;
     padding: 20px;
+
+    width: 100vw;
 }
 .header-contenido{
     padding: 10px 10px 0 10px;
@@ -72,8 +74,12 @@ ion-icon{
 /* Pantallas a partir de tablet */
 
 @media screen and (min-width: 768px) {
+    .header{
+        position: fixed;
+    }
     .header-contenido{
         padding: 0;
+        width: 96vw;
         flex-direction: row;
         justify-content: space-between;
     }
