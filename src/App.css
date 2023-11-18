@@ -4,3 +4,11 @@
   margin: 0 auto;
   
 }
+
+#aboutUs,
+#coverImage,
+#testimonios,
+#contact{
+  height: 60vh;
+}
+

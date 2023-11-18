@@ -26,16 +26,16 @@ a{
 
 .producto-titulo{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
 }
  
 .producto-titulo em{
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: lighter;
     color: #adb5bd;
-    margin-left: 10px;
+    margin-left: 1rem;
     opacity: 0; 
     transition: opacity 0.3s ease;
 }
@@ -53,7 +53,7 @@ opacity: 1;
 
 .producto_imagen{
     height: 50%;
-    width: 200px;
+    width: 20rem;
     border-radius: 2rem; 
 }
 
