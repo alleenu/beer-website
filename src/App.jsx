@@ -3,6 +3,7 @@ import './App.css'
 
 //Componentes
 import Header from './componentes/Header/Header'
+import Testimonials from './componentes/Testimonials';
 import Productos from './pages/Productos';
 
 
@@ -29,8 +30,7 @@ function App() {
 
       <section id="testimonios" style={{backgroundColor: 'LightSteelBlue'}}> {/* Section Testimonio */}
         <div className='contenedor'>
-          <h1>TESTIMONIO</h1>
-          <br />
+          <Testimonials />
             <p> van los componentes del testimonio</p>
         </div>
       </section>
