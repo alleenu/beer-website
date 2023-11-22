@@ -4,7 +4,7 @@ import './App.css'
 //Componentes
 import Header from './componentes/Header/Header'
 import Testimonials from './componentes/Testimonials';
-import Productos from './pages/Productos';
+import BeerFlex from './componentes/BeerFlex/BeerFlex';
 
 
 function App() {
@@ -24,7 +24,8 @@ function App() {
       </section>
      
       <section id="productos"> {/* Section Productos */}
-        <Productos />
+        <BeerFlex />
+
       </section>
 
 

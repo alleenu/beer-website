@@ -1,0 +1,75 @@
+.beerFlex{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}   
+.productos-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: aqua;*/
+} 
+
+.productos-flex .producto{
+  margin-bottom: 2rem;
+}
+
+.producto-titulo{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.producto-titulo em{
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #adb5bd;
+  margin-left: 10px;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.producto-titulo:hover em{
+  opacity: 1;
+}
+
+.estilo-swiper{
+    width: 75vw;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute !important;
+  bottom: 0 !important;
+  right: 5% !important;
+  top: 135rem !important;
+  color: rgb(255, 0, 191);
+ 
+}
+.swiper-button-prev {
+  left: 5% !important;
+}
+
+
+/* Tablet y Phones */
+@media (max-width: 768px) {
+
+  .producto-titulo em{
+    font-size: 2.6rem;
+  }
+  .estilo-swiper {
+    width: 100vw; /* Ancho del 100% en dispositivos móviles */
+  }
+  .estilo-swiper .swiper-slide.custom-margin {
+    margin-left: 2rem;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+}

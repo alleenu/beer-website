@@ -76,6 +76,7 @@ ion-icon{
 @media screen and (min-width: 768px) {
     .header{
         position: fixed;
+        z-index: 10;
     }
     .header-contenido{
         padding: 0;
