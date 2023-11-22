@@ -41,7 +41,7 @@ const Testimonials = () => {
   };
 
   const deleteTestimonial = (id) => {
-    const updatedTestimonials = testimonialsData.filter((testimonial) => testimon.id !== id);
+    const updatedTestimonials = testimonialsData.filter((testimonial) => testimonial.id !== id);
     setTestimonialsData(updatedTestimonials);
   };
 
