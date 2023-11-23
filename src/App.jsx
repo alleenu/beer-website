@@ -5,6 +5,8 @@ import './App.css'
 import Header from './componentes/Header/Header'
 import Testimonials from './componentes/Testimonials';
 import BeerFlex from './componentes/BeerFlex/BeerFlex';
+import Contact from './componentes/ContactForm/Contact';
+
 
 
 function App() {
@@ -40,6 +42,7 @@ function App() {
       <section id='contact' style={{backgroundColor: 'SandyBrown'}} >  {/* Section Contact */}
         <div className="contenedor">
           <h1>Contactos</h1>
+          <Contact />
         </div>
 
       </section>
