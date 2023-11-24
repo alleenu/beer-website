@@ -2,31 +2,30 @@
 .contact-section {
     text-align: center;
     padding: 50px;
-  }
-  
-  .contact-form {
+}
+
+.contact-form {
     max-width: 400px;
     margin: 0 auto;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
-  }
-  
-  button {
+}
+
+button {
     background-color: #4caf50;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
+}
